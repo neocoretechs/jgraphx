@@ -1,9 +1,11 @@
 JGraphX
 =======
 
-This project is end of life.
-
-We don't properly support Maven or publish to Maven Central. If that's an issue, use https://github.com/vlsi/jgraphx-publish
+This project is end of life, but reanimated here with simplified build and resources external in mxresources repository.
+A build directory is included that contains the resources.jar that can be added to the classpath to provide the bundle.
+The mxresources repository can be directly jarred into a usable resource bundle.
+There is a also a graph.bat windoze batch file to execute the samples by entering the class name sans package.
+i.e. C:\you> graph HelloWorld
 
 JGraphX is a Java Swing diagramming (graph visualisation) library licensed under the BSD license. Although, the package 
 names use that of 'mxGraph', this library is not called mxGraph. mxGraph is the JavaScript diagramming library - https://github.com/jgraph/mxgraph.
