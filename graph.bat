@@ -1,0 +1,1 @@
+java -ea -cp \Progra~1\apache\apache-tomcat\lib\jgraphx.jar;\Progra~1\apache\apache-tomcat\lib\resource.jar. com.mxgraph.examples.swing.%1
